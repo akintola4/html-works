@@ -1,0 +1,61 @@
+body{
+    background-image:url('C:\Users\Akintola\Desktop\html works\folasite\images\pic.jpg'); 
+    background-repeat: repeat; 
+    background-position: center; 
+    background-size:cover;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0%;
+    padding: 0%;
+    transition: 1%;
+}
+form{
+    
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 540px;
+    box-shadow: 3px 15px 70px #226;
+    border-radius: 15px;
+    background: #fff;
+}
+h1{
+color:#1fd4e6;
+}
+
+.input-style{
+    border:none;
+    border-radius: 25px;
+    width: 230px;
+    height: 30px;
+    text-indent: 25px;
+    background: #1fd4e6;
+    transition: 0.3%;
+    font-style: normal;
+    letter-spacing: 2px;
+    padding: 3px 0; 
+        display: block;
+        margin: 18px auto;
+        transition: 0.5%;
+}
+
+.submit{
+    
+    width: 230px;
+    height: 40px;
+    color: black;
+    text-align: center;
+    text-indent: 0;
+    background: #1fd4e6;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    outline: white;
+    cursor: pointer;
+        display: block;
+        margin: 18px auto;
+        transition: 0.5%;
+}
